@@ -1,0 +1,5 @@
+﻿  Learning.cpp
+c:\users\andres\source\repos\learning\learning\learning.cpp(12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\andres\source\repos\learning\learning\learning.cpp(31): error C2440: 'initializing': cannot convert from 'const char [7]' to 'char *'
+  c:\users\andres\source\repos\learning\learning\learning.cpp(31): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\andres\source\repos\learning\learning\learning.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
