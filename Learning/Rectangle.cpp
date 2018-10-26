@@ -42,4 +42,26 @@ int Rectangle::calc_perimeter() {
 	return (length * 2) + (width * 2);
 }
 
+Rectangle::operator int() {
+	return 7;
+}
+
+Rectangle Rectangle::operator *(Rectangle r) {
+	this->set_length(this->get_length() * r.get_length());
+	this->set_width(this->get_width() * r.get_width());
+	return *this;
+}
+
+Rectangle Rectangle::operator /(Rectangle r) {
+	this->set_length(this->get_length() / r.get_length());
+	this->set_width(this->get_width() / r.get_width());
+	return *this;
+}
+
+Rectangle Rectangle::operator +(Rectangle r) {
+	this->set_length(this->get_length() + r.get_length());
+	this->set_width(this->get_width() + r.get_width());
+	return *this;
+}
+
 

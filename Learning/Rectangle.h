@@ -22,6 +22,10 @@ public:
 	int get_length();
 	int calc_area();
 	int calc_perimeter();
+	operator int();
+	Rectangle operator *(Rectangle r);
+	Rectangle operator /(Rectangle r);
+	Rectangle operator +(Rectangle r);
 };
 
 #endif
