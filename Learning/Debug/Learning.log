@@ -1,4 +1,7 @@
-﻿  Learning.cpp
-c:\users\andres\source\repos\learning\learning\learning.cpp(31): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\andres\source\repos\learning\learning\learning.cpp(38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+﻿  Child.cpp
+  Learning.cpp
+c:\users\andres\source\repos\learning\learning\learning.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\andres\source\repos\learning\learning\learning.cpp(40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Mother.cpp
+  Generating Code...
   Learning.vcxproj -> C:\Users\Andres\source\repos\Learning\Debug\Learning.exe
