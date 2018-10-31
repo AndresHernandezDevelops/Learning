@@ -7,6 +7,5 @@ public:
 	Father();
 	~Father();
 	Father(int height);
-
 };
 
